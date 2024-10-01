@@ -4,9 +4,16 @@ p {
 
 #second {
     color: green;
+    /*wordt overschreven onderaan*/
 }
 
 .bg-blue {
     background-color: blue;
     color: white;
+}
+.italic {
+    font-style: italic;
+}
+#second {
+    color: purple;
 }
