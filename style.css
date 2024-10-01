@@ -5,3 +5,8 @@ p {
 #second {
     color: green;
 }
+
+.bg-blue {
+    background-color: blue;
+    color: white;
+}
