@@ -1,0 +1,30 @@
+* {
+    font-family: 'Calibri', sans-serif;
+    color: white;
+}
+table {
+    text-align: center;
+    width: 800px;
+    border: 1px black solid;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td {
+    border: 1px solid black;
+    padding: 0;
+}
+caption {
+    caption-side: bottom;
+    border: 1px solid black;
+    border-top: none;
+}
+th, caption {
+    background-color: #142942;
+
+}
+table tr:nth-child(odd) {
+    background-color:  #90BAE3;
+}
+table tr:nth-child(even) {
+    background-color:  #6C9BDC;
+}

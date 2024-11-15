@@ -1,0 +1,19 @@
+main table {
+    width: 500px;
+    border: 1px solid black;
+    table-layout:fixed;
+    empty-cells: hide;
+}
+main img {
+    width: 100px;
+    height: auto;
+}
+th, td {
+    padding: 10px;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    text-align: left;
+}

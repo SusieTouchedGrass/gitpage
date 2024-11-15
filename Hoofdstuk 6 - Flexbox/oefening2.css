@@ -1,0 +1,56 @@
+/* #1E90FF, #FFFFFF, #CCCCCC*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    width: 1200px;
+    border: #1E90FF 2px solid;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+header {
+    background: #1E90FF;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    font-weight: bold;
+}
+main {
+    display: flex;
+
+}
+main article {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px 20px 0 20px;
+    margin: 20px;
+    width: calc((100% / 3) - 40px)
+}
+main article h2, p {
+    margin: 10px 0;
+}
+main article h2, img, p, div {
+
+}
+article p {
+    flex: 1;
+    margin: 20px 0;
+}
+main article img {
+    width: 100%;
+    height: auto;
+}
+div {
+    text-align: center;
+    font-weight: bold;
+    background: #1E90FF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    padding: 5px;
+}

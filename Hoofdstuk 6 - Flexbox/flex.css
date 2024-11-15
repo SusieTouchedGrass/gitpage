@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    border: 1px solid red;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+li {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 150px
+}

@@ -1,0 +1,20 @@
+main table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 500px;
+    table-layout: fixed;
+}
+main table th, main table td {
+    border: 1px solid black;
+    padding: 15px;
+}
+main img {
+    width: 100px;
+}
+thead th {
+    background-color: #000000;
+    color: white;
+}
+tbody th {
+    text-decoration: underline;
+}

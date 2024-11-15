@@ -1,0 +1,100 @@
+/*#000000, #DF0024, #F3C300, #00AC9F en #2E6DB4*/
+* {
+    font-family: monospace, sans-serif;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1, h2 {
+    font-family: 'Courier New', sans-serif;
+}
+header {
+    background-color: #000000;
+}
+header h1{
+    color: white;
+    padding: 50px 0;
+    margin-left: 50px;
+}
+article {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.first h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.first p {
+    padding-bottom: 10px;
+}
+.second h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.third h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.fourth h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fourth p {
+    padding-bottom: 10px;
+}
+article h2 {
+    margin: 0;
+    padding: 0;
+}
+article p {
+    width: 900px;
+    font-size: 14px;;
+}
+article table {
+    border-collapse: collapse;
+    margin: 0;
+}
+article table tr th, td {
+    border: 1px solid black;
+    padding: 0;
+}
+.tableone {
+    width: 900px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.tableone tr td img {
+    width: 150px;
+    height: auto;
+}
+.tableone tr td:first-child {
+    width: 900px
+}
+.red {
+    background-color: #DF0024;
+}
+.poppy {
+    background-color: #F3C300;
+}
+.green {
+    background-color: #00AC9F;
+}
+.blue {
+    background-color: #2E6DB4;
+}
+article img {
+    width: 900px;
+    height: auto;
+}
+article p:nth-child(2) {
+    margin: 0 0 0 0;
+}
+.tabletwo {
+    width: 450px;
+}
+.tabletwo thead th{
+    background-color: #F3C300;
+    padding: 10px
+}

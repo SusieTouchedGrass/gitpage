@@ -1,0 +1,27 @@
+.olods-table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    border: green dashed 2px;
+    padding: 50px;
+}
+.olods-table td, .olods-table th {
+    border: green dashed 2px;
+    padding: 10px;
+}
+.olods-table caption {
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px
+}
+table tbody tr:nth-child(even) {
+    background-color: lightpink;
+}
+table tbody tr:nth-child(even) td:nth-child(2){
+    background-color: deeppink;
+}
+table tbody tr:nth-child(odd) {
+    background-color: lightcyan;
+}
+table tbody tr:nth-child(odd) td:nth-child(2) {
+    background-color: cyan;
+}
